@@ -10,7 +10,24 @@
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic,latin-ext"
      rel="stylesheet">
-</head>
+
+     <!-- ustawienie opcji przewiń do - skiopowanie ze strony darmowej googlle bibloteka jquery.scrollTo.min plik skopiować do źródłowego foldderu u mnie" Programowanie" -->
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>  <!--google apps jquery - strona online -->  
+     <script src="jquery.scrollTo.min" ></script>
+     <script> 
+     jQuery(function($) 
+
+      {
+        // zresetuj scrolla
+        $.scrollTo(0)
+        $('#link3').click(function() {$.scrollTo ($('#rybacrt'),500); } );
+    }
+     );
+     
+     </script>
+
+    </head>
 <body>
   <div id="logo">Wykład 1 - Tworzenie List !!!</div>  
   <div id="container">
@@ -26,7 +43,8 @@
                          <!--nowa klasa "cz"- kolor tekstu po kropkach - po ustawieniu koloru w kropkach zostały zmienione kolory liter, 
                          należ poniżej założyc dodatkowo klase do samego tekstu-->
                          <li>karp</li>
-                         <li>sum</li>
+                         <li><a id="link3" href="#rybacrt">sum</a></li> <!-- dodanie hiperłącza wyszukanie slajdu pod nazwą rybacart sum, po naciśnięciu w spisie treści sum 
+                        należy teraz wyszukać slajd z nazwą sum i dodać nazwę rybacrt - (uwaga dodajemy ale bez "#")-->
                          <li>sandacz</li>
                          <li>tołpyga</li>
                      </ul>
@@ -78,13 +96,82 @@
          </div>
           <!-- Slajdy-->
          <div class="slajd">
-            <h1>okazy</h1>
+            <h1>szczupak</h1>
             <br/><br/>
             <div style="width: 790px; background-color: aquamarine; padding: 5 px; font-weight: 700;color: blueviolet;">
+                <img src="img/Szczupak.jpg" alt="crt"/>
          </div>
+         <div class="slajd">
+            <h1>karp</h1>
+            <br/><br/>
+            <div style="width: 790px; background-color: aquamarine; padding: 5 px; font-weight: 700;color: blueviolet;">
+                <img src="img/karp.jpg" alt="crt"/>
+         </div>
+         <div class="slajd">
+            <h1 id="rybacrt">sum</h1> <!-- dodane hiper łącze z nazwą rybacart - uwaga (bez "#"-->
+            <br/><br/>
+            <div style="width: 790px; background-color: aquamarine; padding: 5 px; font-weight: 700;color: blueviolet;">
+                <img src="img/Sum.jpg" alt="crt"/>
+            </div>
+         <div class="slajd">
+            <h1>sandacz</h1>
+            <br/><br/>
+            <div style="width: 790px; background-color: aquamarine; padding: 5 px; font-weight: 700;color: blueviolet;">
+                <img src="img/Sandacz.jpg" alt="crt"/>
+         </div>
+         <div class="slajd">
+            <h1>tołpyga</h1>
+            <br/><br/>
+            <div style="width: 790px; background-color: aquamarine; padding: 5 px; font-weight: 700;color: blueviolet;">
+                <img src="img/Tołpyga.jpg" alt="crt"/>
+         </div>
+         <div class="slajd">
+            <h1>Wedkarstwo morskie</h1>
+            <br/><br/>
+            <div style="width: 790px; background-color: aquamarine; padding: 5 px; font-weight: 700;color: blueviolet;">
+               <img src="img/Wędkarstwo morskie.jpg" alt="crt"/>
+         </div>
+        <div class="slajd">
+            <h1>Wedkarstwo muchowe</h1>
+            <br/><br/>
+            <div style="width: 790px; background-color: aquamarine; padding: 5 px; font-weight: 700;color: blueviolet;">
+                <img src="img/Wędkarstwo muchowe.jpg" alt="crt"/>
+          </div>
+          <div class="slajd">
+            <h1>kij</h1>
+            <br/><br/>
+            <div style="width: 790px; background-color: aquamarine; padding: 5 px; font-weight: 700;color: blueviolet;">
+                <img src="img/kij.jpg" alt="crt"/>
+          </div>
+          <div class="slajd">
+            <h1>Wędkarz</h1>
+            <br/><br/>
+            <div style="width: 790px; background-color: aquamarine; padding: 5 px; font-weight: 700;color: blueviolet;">
+                <img src="img/Wędkarz.jpg" alt="crt"/>
+          </div>
+          <div class="slajd">
+            <h1>Żona wędkarza</h1>
+            <br/><br/>
+            <div style="width: 790px; background-color: aquamarine; padding: 5 px; font-weight: 700;color: blueviolet;">
+                <img src="img/żona.jpg" alt="crt"/>
+          </div>
+          <div class="slajd">
+            <h1>Kochanka wędkarza</h1>
+            <br/><br/>
+            <div style="width: 790px; background-color: aquamarine; padding: 5 px; font-weight: 700;color: blueviolet;">
+                <img src="img/On i ona.jpg" alt="crt"/>
+          </div>
+          <div class="slajd">
+            <h1>Teściowa wędkarza</h1>
+            <br/><br/>
+            <div style="width: 790px; background-color: aquamarine; padding: 5 px; font-weight: 700;color: blueviolet;">
+                <img src="img/Teściowa.jpg" alt="crt"/>
+          </div>
 
-  
-  
+
+
+
+        
         </div>
 
 
