@@ -110,7 +110,7 @@ ol.chapsters /*dodatkowa klasa dla listy dodatkowej  */
  /*dodane slajdy  */
 .slajd
 {
-   padding: 20px 40px;
+   padding: 20px 20px;
    text-align: justify;
 }
 h1 /*opis nagłówków slajdó  */
@@ -118,4 +118,15 @@ h1 /*opis nagłówków slajdó  */
    font-size: 24px;
    text-transform: uppercase;
    font-weight: 700;
+}
+.scrollup /* clasa znacznika*/
+{
+width: 64px;
+height: 64px;
+text-decoration: none;
+background: url ("img/up.jpg") no-repeat 0px 0px; /*tło znacznika , w razie przekroczenia rozniaru 64x64 nie powtarzaj grafiki tła*/
+position: fixed; /*przypisanie pozycji na stałe znacznika na ekranie*/ 
+right: 50px;
+bottom: 50px; 
+display: none; /*ukrycie znacznika na 1 stronie ; pokaże sie dopiero od drugiej*/
 }
