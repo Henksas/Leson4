@@ -56,6 +56,12 @@ a:active /*link aktywny - ustalenie koloru hiperłącza (podświetlenie w spisie
    border-left: 1px solid yellow;
    border-right: 1px solid yellow;
 }
+.rectangle /*Stopka*/
+{
+    width: 960px;
+    margin: 20px;
+    text-align: center;/*wyśrodkowanie zawartości textu */
+}
 #spis /* stylizacja spisu treśći*/
 {
    width: 1350px;
@@ -124,7 +130,7 @@ h1 /*opis nagłówków slajdó  */
 width: 64px;
 height: 64px;
 text-decoration: none;
-background: url ("img/up.jpg") no-repeat 0px 0px; /*tło znacznika , w razie przekroczenia rozniaru 64x64 nie powtarzaj grafiki tła*/
+background: url("img/up.jpg") no-repeat 0px 0px; /*tło znacznika , w razie przekroczenia rozniaru 64x64 nie powtarzaj grafiki tła*/
 position: fixed; /*przypisanie pozycji na stałe znacznika na ekranie*/ 
 right: 50px;
 bottom: 50px; 
