@@ -51,7 +51,7 @@ a:active /*link aktywny - ustalenie koloru hiperłącza (podświetlenie w spisie
    margin-left: auto;
    margin-right: auto;
    background-color: white;
-   width: 1458px;
+   width: 1658px;
    padding: 20px;
    border-left: 1px solid yellow;
    border-right: 1px solid yellow;
@@ -87,7 +87,7 @@ ol > li > ul /* stylizacja spisu treśći - tytuły numerowane (stylizujemy "ul"
    padding: 0px;
    letter-spacing: 0px;
    margin-top: 5px;
-   margin-left: 30px;
+   margin-left: 20px;
    list-style-type:disc ;/*kolor kropek w listach-styl domyślny 
    ( tej chwili są 2 znaki w listach domyślna kropka i 
    dodana jako drugi znak pacyfka zeby była tylko pacyfka należy zastąpić "disc"-"none"*/
@@ -118,6 +118,7 @@ ol.chapsters /*dodatkowa klasa dla listy dodatkowej  */
 {
    padding: 20px 20px;
    text-align: justify;
+   
 }
 h1 /*opis nagłówków slajdó  */
 {
